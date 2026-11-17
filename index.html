@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Großklein Online | Hausmeisterservice, Winterdienst und Büroreinigung in der Region</title>
+<meta name="description" content="Regionales Portal mit Beiträgen zu Hausmeisterservice, Winterdienst, Büro- und Praxisreinigung sowie zum Vergleich von Angeboten und Festpreisen.">
+<link rel="canonical" href="https://grossklein-online.de/">
+<meta property="og:title" content="Großklein Online | Hausmeisterservice, Winterdienst und Büroreinigung in der Region">
+<meta property="og:description" content="Regionales Portal mit Beiträgen zu Hausmeisterservice, Winterdienst, Büro- und Praxisreinigung sowie zum Vergleich von Angeboten und Festpreisen.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://grossklein-online.de/">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);line-height:1.7;
+  font-family:var(--font);-webkit-font-smoothing:antialiased;font-size:17px}
+img{max-width:100%;display:block}
+a{color:var(--accent)}
+.wrap{width:100%;max-width:var(--max);margin:0 auto;padding:0 20px}
+.site-head{border-bottom:1px solid var(--line);background:var(--head-bg)}
+.site-head .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;
+  padding:18px 20px;flex-wrap:wrap}
+.brand{font-weight:700;font-size:1.12rem;text-decoration:none;color:var(--head-ink);line-height:1.3}
+.brand span{display:block;font-weight:400;font-size:.78rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--muted)}
+.site-head nav{display:flex;gap:20px;flex-wrap:wrap}
+.site-head nav a{color:var(--muted);text-decoration:none;font-size:.93rem}
+.site-head nav a:hover{color:var(--accent)}
+.hero{padding:52px 0 44px;border-bottom:1px solid var(--line)}
+.hero h1{font-family:var(--font-head);font-size:clamp(1.7rem,4vw,2.5rem);line-height:1.2;margin:0 0 14px}
+.hero p{color:var(--muted);max-width:620px;margin:0}
+.hero img{margin-top:28px;border-radius:var(--radius);height:230px;object-fit:cover;width:100%}
+main{padding:48px 0 64px}
+h2,h3{font-family:var(--font-head);line-height:1.3}
+.section-title{font-family:var(--font-head);font-size:1.3rem;margin:0 0 6px}
+.section-sub{color:var(--muted);margin:0 0 30px;font-size:.95rem}
+.posts{display:grid;gap:22px}
+.post-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px}
+.post-card time{font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.post-card h2{font-size:1.18rem;margin:8px 0 10px}
+.post-card h2 a{color:var(--ink);text-decoration:none}
+.post-card h2 a:hover{color:var(--accent)}
+.post-card p{margin:0 0 14px;color:var(--muted);font-size:.97rem}
+.more{font-size:.9rem;font-weight:600;text-decoration:none}
+.prose{max-width:720px}
+.prose h2{font-size:1.25rem;margin:34px 0 10px}
+.prose p{margin:0 0 16px}
+.prose ul{margin:0 0 18px;padding-left:22px}
+.prose li{margin-bottom:7px}
+.prose .lead{font-size:1.08rem;color:var(--ink)}
+.meta{color:var(--muted);font-size:.86rem;letter-spacing:.06em;text-transform:uppercase;margin:0 0 10px}
+.post-title{font-family:var(--font-head);font-size:clamp(1.6rem,3.6vw,2.2rem);line-height:1.22;margin:0 0 22px}
+.back{display:inline-block;margin:36px 0 0;font-size:.92rem;text-decoration:none;font-weight:600}
+.box{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:22px;margin:38px 0 0;max-width:720px}
+.box h3{margin:0 0 8px;font-size:1.05rem}
+.box p{margin:0;color:var(--muted);font-size:.95rem}
+.site-foot{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-size:.88rem;
+  background:var(--head-bg)}
+.site-foot .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+@media(max-width:760px){body{font-size:16px}.hero{padding:40px 0 34px}main{padding:36px 0 48px}}
+
+:root{--bg:#f5f7fa;--card:#fff;--ink:#1a2430;--muted:#5b6876;--line:#dde3ea;--accent:#1b5fa8;
+  --head-bg:#1b5fa8;--head-ink:#fff;--max:880px;--radius:6px;
+  --font:'Segoe UI',system-ui,-apple-system,Arial,sans-serif;--font-head:'Segoe UI',system-ui,Arial,sans-serif}
+.site-head{border-bottom:0}
+.site-head nav a{color:#cfe0f2}
+.site-head nav a:hover{color:#fff}
+.brand span{color:#bcd4ec}
+.posts{gap:12px}
+.post-card{padding:18px 20px;display:flex;gap:18px;align-items:baseline;flex-wrap:wrap}
+.post-card time{flex:0 0 110px;padding-top:3px}
+.post-card .body{flex:1 1 260px;min-width:0}
+.post-card h2{margin:0 0 6px;font-size:1.08rem}
+.post-card p{margin:0 0 8px}
+.hero{background:#fff}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Blog",
+ "name":"Großklein Online","description":"Regionales Portal mit Beiträgen zu Hausmeisterservice, Winterdienst, Büro- und Praxisreinigung sowie zum Vergleich von Angeboten und Festpreisen.",
+ "url":"https://grossklein-online.de/","inLanguage":"de-DE",
+ "blogPost":[{"@type":"BlogPosting","headline":"Hausmeisterservice in der Region: Leistungen im Überblick","datePublished":"2026-11-16","url":"https://grossklein-online.de/hausmeisterservice-leistungen-ueberblick.html"},{"@type":"BlogPosting","headline":"Winterdienst buchen: Fristen, Einsatzzeiten und Saisonpreise","datePublished":"2026-11-15","url":"https://grossklein-online.de/winterdienst-buchen-fristen-preise.html"},{"@type":"BlogPosting","headline":"Büroreinigung für kleine Praxen und Kanzleien: Turnus und Hygiene","datePublished":"2026-11-13","url":"https://grossklein-online.de/bueroreinigung-praxis-kanzlei.html"},{"@type":"BlogPosting","headline":"Festpreis oder Stundenlohn? Angebote richtig vergleichen","datePublished":"2026-11-12","url":"https://grossklein-online.de/festpreis-oder-stundenlohn-angebote-vergleichen.html"}]}
+</script>
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html">Großklein Online<span>Regionales Serviceportal</span></a>
+    <nav>
+        <a href="index.html">Start</a>
+        <a href="index.html#beitraege">Beiträge</a>
+        <a href="index.html#ueber">Über</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Gebäudeservice in der Region verständlich erklärt</h1>
+    <p>Welche Leistungen gehören zum Hausmeisterservice, wann sollte der Winterdienst gebucht werden und wie vergleicht man Angebote richtig? Dieses Portal sammelt kurze, praktische Beiträge für Eigentümer, Vermieter und Gewerbebetriebe in der Region.</p>
+    <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1400&q=70" alt="Wohnhaus mit gepflegter Außenanlage am Tag" loading="lazy">
+  </div>
+</section>
+
+<main id="beitraege">
+  <div class="wrap">
+    <h2 class="section-title">Aktuelle Beiträge</h2>
+    <p class="section-sub">Aktuelle Beiträge dieser Woche aus dem Bereich Gebäudeservice.</p>
+<div class="posts">
+  <article class="post-card">
+    <time datetime="2026-11-16">16. November 2026</time>
+    <div class="body"><h2><a href="hausmeisterservice-leistungen-ueberblick.html">Hausmeisterservice in der Region: Leistungen im Überblick</a></h2>
+    <p>Vom Kontrollgang bis zur Kleinreparatur: welche Leistungen üblicherweise im Hausmeisterservice enthalten sind und welche gesondert beauftragt werden.</p>
+    <a class="more" href="hausmeisterservice-leistungen-ueberblick.html">Weiterlesen →</a></div>
+  </article>
+  <article class="post-card">
+    <time datetime="2026-11-15">15. November 2026</time>
+    <div class="body"><h2><a href="winterdienst-buchen-fristen-preise.html">Winterdienst buchen: Fristen, Einsatzzeiten und Saisonpreise</a></h2>
+    <p>Wer den Winterdienst erst beim ersten Schnee sucht, zahlt mehr. Was im Vertrag stehen muss und welche Abrechnungsmodelle üblich sind.</p>
+    <a class="more" href="winterdienst-buchen-fristen-preise.html">Weiterlesen →</a></div>
+  </article>
+  <article class="post-card">
+    <time datetime="2026-11-13">13. November 2026</time>
+    <div class="body"><h2><a href="bueroreinigung-praxis-kanzlei.html">Büroreinigung für kleine Praxen und Kanzleien: Turnus und Hygiene</a></h2>
+    <p>In Praxen und Kanzleien gelten andere Anforderungen als im normalen Büro. Welche Bereiche welchen Turnus brauchen und was dokumentiert wird.</p>
+    <a class="more" href="bueroreinigung-praxis-kanzlei.html">Weiterlesen →</a></div>
+  </article>
+  <article class="post-card">
+    <time datetime="2026-11-12">12. November 2026</time>
+    <div class="body"><h2><a href="festpreis-oder-stundenlohn-angebote-vergleichen.html">Festpreis oder Stundenlohn? Angebote richtig vergleichen</a></h2>
+    <p>Der günstigste Stundensatz ist selten das günstigste Angebot. Woran Sie erkennen, ob ein Angebot vollständig kalkuliert ist.</p>
+    <a class="more" href="festpreis-oder-stundenlohn-angebote-vergleichen.html">Weiterlesen →</a></div>
+  </article>
+</div>
+
+    <div class="box" id="ueber">
+      <h3>Über diesen Blog</h3>
+      <p>Großklein Online ist ein regionales Informationsportal zu Gebäudeservice und Gebäudereinigung. Wir erklären Leistungen, Abrechnungsmodelle und saisonale Fristen so, dass Eigentümer und Betriebe Angebote sicher einschätzen können. Die Beiträge sind redaktionell und allgemein gehalten, Preise dienen nur zur Orientierung.</p>
+    </div>
+  </div>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div>© 2026 Großklein Online · grossklein-online.de</div>
+    <div>Regionales Informationsportal zum Gebäudeservice</div>
+  </div>
+</footer>
+</body>
+</html>
